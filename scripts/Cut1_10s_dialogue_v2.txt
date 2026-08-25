@@ -1,0 +1,48 @@
+integrated_multimodal_description: All three depicted characters are adults. Preserve their identities, facial structure, hair, clothing, accessories, relative height, and the apartment set consistently across the entire sequence.
+
+Character continuity:
+- Resonaloc is an elderly East Asian woman with silver-gray hair in a loose bun, round glasses, a calm knowing expression, and layered charcoal-blue robes embroidered with fine gold constellations. She remains seated in the wooden chair, watches the younger pair, and only gives a restrained amused chuckle near the end.
+- Roman, the female lead, is a 24-year-old East Asian woman with short tousled black hair and pale silver tips at the nape, a long star-shaped earring, a black bomber jacket with a small gold crest, white shirt, loosened dark striped tie, black shorts, black socks and combat boots, and a brown leather satchel. She is playful, competitive, expressive, and overconfident.
+- ShangBan, the male lead, is an East Asian man in his early thirties with short black hair, thin round glasses, a light-gray trench coat over a pale shirt and dark trousers, and a brown cross-body satchel holding rolled maps. He is quiet, analytical, completely unflustered, and controls magic through almost imperceptible finger gestures.
+
+Setting and tone: A warm, richly detailed occult astrologer's apartment at night with wooden floors, old star maps spread over a low table, candles, crystals, brass instruments, books, constellation tapestries, hanging ornaments, and a wide window overlooking a modern city skyline. Warm amber practical light contrasts with cool blue magic. Photorealistic cinematic fantasy with playful romantic-comedy timing, natural skin, realistic cloth and hair motion, coherent spatial geography, and clean 24 fps movement. The magical restraint is harmless slapstick, never painful or erotic.
+
+Use the five connected storyboard images as exact temporal anchors in their assigned order:
+
+[0.0s / frame 0 — exact first frame] Match storyboard 1: wide three-person composition. Resonaloc sits calmly at frame left. Roman and ShangBan lean across the map table and bump shoulders while arguing over a route. The ornate wand floats horizontally above them, its tip shedding blue sparks. Slow forward dolly. Roman glances sideways at ShangBan with a competitive grin.
+
+[0.7s-1.5s — spoken Mandarin, Roman, playful young female voice] Roman laughs lightly and says clearly: “尚班，认输吧。” Her mouth movement matches the words. ShangBan does not answer yet and keeps studying the map.
+
+[0.0s-2.54s] Roman nudges ShangBan's shoulder and deliberately moves his pointing finger away from the map. He calmly moves it back without looking rattled. Roman notices the hovering wand, makes a small summoning gesture, and the wand rotates toward her hand. Resonaloc opens her eyes and watches knowingly.
+
+[about 2.54s / frame 61 — exact anchor] Match storyboard 2: Roman leans toward ShangBan, playfully points close to his face, and lightly braces his shoulder. ShangBan points back but remains composed. The wand hovers above them, trailing blue particles.
+
+[2.8s-3.9s — spoken Mandarin, Roman, mock-threatening but amused] Roman catches the wand and says: “再不认输，我就让它动手。” She delivers the line like a teasing challenge, not a real threat.
+
+[2.54s-5.08s] Roman catches and commands the wand in one clean motion. She makes it orbit once above ShangBan's head and guides its blue tip toward his collar. ShangBan slowly straightens, adjusts his glasses, and looks directly at Roman with a neutral expression. Use a motivated rising camera move into the overhead angle. No duplicated hands, no body morphing.
+
+[about 5.08s / frame 122 — exact anchor] Match storyboard 3: high overhead view. Roman stands beside ShangBan and aims the glowing wand near his collar without touching him. ShangBan leans only slightly, calm and unharmed. Resonaloc remains composed in her chair. The map table and constellation rugs establish the apartment geometry.
+
+[5.15s-6.25s — spoken Mandarin, ShangBan, low calm adult male voice] Without raising his voice, ShangBan says clearly: “你确定，它听你的？” His lips move minimally and naturally; his expression stays completely untroubled.
+
+[5.08s-7.63s] Roman initially smirks at ShangBan's calm face. She twists her wrist to make the wand advance, but the wand does not obey. ShangBan makes a nearly invisible two-finger gesture beside his coat. The blue light at the wand tip changes direction behind Roman. Do not reveal the full restraint yet. Push into Roman's face while keeping ShangBan just off-camera; the reversal should first register only through Roman's changing expression and the moving blue light reflected in her eyes.
+
+[about 7.63s / frame 183 — exact anchor] Match storyboard 4: close-up of Roman's recognizable face, short black-and-silver hair, and star earring. Her confident smile begins to freeze. She looks at ShangBan off-camera; her eyebrows tighten, eyes flick downward, and the color and confidence gradually drain from her expression. Behind her, the wand's blue point flares and sparkling particles curve toward her back.
+
+[7.65s-8.35s — spoken Mandarin, Roman, confidence breaking into alarm] Roman starts confidently, then pauses and says: “当然……等等。” Synchronize the hesitation with her smile fading.
+
+[7.63s-10.125s — delayed visual reveal] Hold Roman's close-up for a beat as her expression shifts from smugness to confusion and then embarrassed alarm. Then slowly dolly backward and widen the frame. Only during this pullback reveal that ShangBan has already taken control of the wand through his subtle finger gesture. The wand floats beside him, and several luminous blue magical ribbons have quietly looped around Roman's jacket, upper arms, waist, thighs, and lower legs. The ribbons gently draw her arms to her sides and lower her backward onto the soft rug without impact. Roman remains fully clothed and properly covered. ShangBan stays calm, catches the wand in one hand, and looks down at her without triumph or aggression. Resonaloc remains in the background, amused because she anticipated the reversal.
+
+[9.15s-9.75s — spoken Mandarin, ShangBan, dry calm delivery] ShangBan asks: “现在呢？”
+
+[9.75s-10.1s — spoken Mandarin, Roman, annoyed but conceding] Roman exhales and mutters: “……算你狠。”
+
+[10.125s / frame 242 — exact final frame] Match storyboard 5: Roman lies safely on the rug, fully clothed, visibly annoyed and embarrassed rather than injured, wrapped in glowing blue magical ribbons. ShangBan is in the foreground holding the wand and looking toward her. Warm candlelight and cool blue ribbons illuminate the room. Resonaloc gives one quiet amused chuckle. Hold the final composition steadily for the last frames.
+
+Continuity and exclusions: exactly three adult characters; consistent faces and costumes; one wand only; ShangBan remains visibly calm throughout; Roman's facial transition must be readable before the camera pullback; delay the full reveal of the ribbons until after the close-up; no extra people, no duplicate limbs, no fused fingers, no changing room architecture, no nudity, no erotic framing, no injury, no choking, no gore, no subtitles, no captions, no logos, and no on-screen text. Preserve all storyboard compositions at their anchor frames. Use motivated camera movement and clean editorial cuts rather than visual morphing.
+
+overall_soundscape: Quiet nighttime city ambience, soft candle crackle, paper and map rustle, subtle wooden floor creaks, a delicate metallic wand hum, synchronized blue-energy chimes, a playful catch-whoosh, a soft magical reversal pulse when ShangBan moves his fingers, and shimmering ribbon sounds during the pullback reveal. Mandarin dialogue is foregrounded and clear, with no overlapping lines.
+
+dialogue: Roman: “尚班，认输吧。” Roman: “再不认输，我就让它动手。” ShangBan: “你确定，它听你的？” Roman: “当然……等等。” ShangBan: “现在呢？” Roman: “……算你狠。”
+
+non_diegetic_music: A restrained whimsical mystery motif with soft celesta and warm low strings. Reduce the music under every spoken line, build a quiet comic suspense note during Roman's close-up, and resolve with a light cadence after the reveal.

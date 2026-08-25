@@ -1,0 +1,37 @@
+WebDestiny — Cut 1 — MiniMax H3 prompt
+
+integrated_multimodal_description: All three depicted characters are adults. Preserve their identities, facial structure, hair, clothing, accessories, relative height, and the apartment set consistently across the entire sequence.
+
+Character continuity:
+- Resonaloc is an elderly East Asian woman with silver-gray hair in a loose bun, round glasses, a calm knowing expression, and layered charcoal-blue robes embroidered with fine gold constellations. She remains seated in the wooden rocking chair and behaves like a composed senior astrologer.
+- Roman is a 24-year-old East Asian woman with short tousled black hair and pale silver tips at the nape, a long star-shaped earring, black bomber jacket with a small gold crest, white shirt, loosened dark striped tie, black shorts, black socks and combat boots, and a brown leather satchel. She is playful, impulsive, expressive, and physically energetic.
+- ShangBan is an East Asian man in his early thirties with short black hair, thin round glasses, a light-gray trench coat over a pale shirt and dark trousers, and a brown cross-body satchel holding rolled maps. He is cautious, analytical, and easily startled by Roman's impulsive magic.
+
+Setting and visual language: A warm, richly detailed occult astrologer's apartment at night, with wooden floors, old star maps covering a low table, candles, crystals, brass instruments, books, constellation tapestries, hanging ornaments, and a wide window overlooking a modern city skyline. Warm amber practical lights contrast with cool blue magical light. Photorealistic cinematic fantasy, natural skin texture, realistic cloth and hair motion, shallow depth of field, coherent spatial geography, and clean 24 fps motion.
+
+Use the five connected storyboard images as exact temporal anchors in their assigned order:
+
+[0.0s / frame 0 — exact first frame] Match storyboard 1: wide three-person composition. Resonaloc rests calmly in the chair at frame left. Roman and ShangBan lean over the crowded map table, tracing routes with their fingers. The ornate wand floats horizontally above them, its tip emitting tiny blue sparks. Begin with a very slow forward dolly; maps and candle flames move subtly in the room's air.
+
+[0.0s-2.5s] Roman and ShangBan study the map, then notice they are indicating different locations. Roman glances sideways with a teasing smile; ShangBan frowns in concentration. The floating wand rotates slightly toward their disagreement. Resonaloc opens her eyes and watches without alarm. Preserve the room layout and every character's wardrobe.
+
+[about 2.54s / frame 61 — exact anchor] Match storyboard 2: Roman leans toward ShangBan and playfully points at his face while lightly bracing his shoulder. ShangBan points back defensively, surprised but not angry. Resonaloc remains seated behind them, quietly amused. The wand hovers above the pair and releases a short trail of blue particles.
+
+[2.54s-5.08s] Their playful argument becomes an energetic pantomime over the map. Roman reaches upward and catches the floating wand in one clean motion. ShangBan tries to warn her with an open hand. Use a motivated rising camera move that resolves into the overhead viewpoint; no body morphing and no duplicated hands.
+
+[about 5.08s / frame 122 — exact anchor] Match storyboard 3: high overhead angle. Roman stands beside ShangBan and holds the wand close to his collar, the blue tip glowing brightly near his neck without touching or harming him. ShangBan leans back with wide-eyed surprise. Resonaloc remains composed in the chair. The map table and constellation rugs establish the room geometry.
+
+[5.08s-7.63s] Roman pulls the wand away and turns toward camera, pleased with herself. ShangBan exhales and reaches cautiously toward the wand. The blue energy at the tip grows unstable and quietly redirects behind Roman. Transition into a close facial shot with a controlled push-in and a brief blue light sweep.
+
+[about 7.63s / frame 183 — exact anchor] Match storyboard 4: close-up of Roman's face. She leans forward with a mischievous, triumphant smile; her short black-and-silver hair and star earring are sharply recognizable. Behind her, the wand's blue point flares and sheds sparkling particles. The city lights remain softly blurred through the window.
+
+[7.63s-10.125s] The enchanted wand slips out of Roman's control and arcs toward ShangBan. He catches it awkwardly. A burst of luminous blue magical ribbons loops around Roman's jacket, arms, waist, and legs. The effect is playful magical slapstick, non-sexual and nonviolent: her clothing stays intact and properly covering, the ribbons never tighten painfully, and she is gently lowered backward onto the soft rug without impact. ShangBan kneels in the foreground holding the wand, confused and concerned. Resonaloc watches calmly, as if she expected the spell to backfire. The camera follows the ribbons down and settles into the final low angle.
+
+[10.125s / frame 242 — exact final frame] Match storyboard 5: Roman lies safely on the rug, fully clothed and visibly annoyed rather than injured, wrapped in glowing blue magical ribbons. ShangBan is in the foreground holding the wand and looking toward her. Warm candlelight and cool blue ribbons illuminate the room. Hold the final composition steadily for the last few frames.
+
+Continuity and exclusions: exactly three adult characters; consistent faces and costumes; one wand only; no extra people, no duplicate limbs, no fused fingers, no changing room architecture, no nudity, no erotic framing, no injury, no choking, no gore, no subtitles, no logos, and no on-screen text. Preserve the connected storyboard compositions at their anchor frames; use clean motivated camera movement and brief editorial cuts rather than visual morphing between substantially different angles.
+
+overall_soundscape: Quiet nighttime city ambience through the window, soft candle crackle, paper and map rustle, subtle wooden floor creaks, a delicate metallic hum from the floating wand, synchronized blue-energy chimes, one playful magical whoosh when Roman catches the wand, a brighter spell-backfire snap, and soft shimmering ribbon sounds as she is lowered onto the rug. Finish with ShangBan's startled breath and Resonaloc's restrained amused chuckle.
+
+dialogue: None.
+non_diegetic_music: A restrained whimsical mystery motif with soft celesta and low warm strings, kept quiet beneath the room ambience and ending on a light comic cadence.

@@ -3,53 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WebDestiny — Cut 1</title>
-  <style>
-    :root { color-scheme: dark; }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(circle at top, #202235, #090a0f 64%); color: #f5f5f7; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
-    main { width: min(1100px, 94vw); padding: 32px 0; }
-    h1 { margin: 0 0 8px; font-size: clamp(24px, 4vw, 42px); }
-    p { margin: 0 0 18px; color: #b8bbca; }
-    nav { display: flex; gap: 10px; margin-bottom: 16px; }
-    button { border: 1px solid #555a70; border-radius: 999px; padding: 9px 16px; color: #e8eaff; background: #25283a; cursor: pointer; }
-    button.active { background: #5473d8; border-color: #8fa7ff; }
-    video { display: block; width: 100%; max-height: 74vh; border-radius: 14px; background: #000; box-shadow: 0 20px 70px #000a; }
-    .links { display: flex; gap: 18px; flex-wrap: wrap; }
-    a { display: inline-block; margin-top: 18px; color: #9fc4ff; }
-  </style>
+  <meta name="theme-color" content="#0b0d16">
+  <title>WebDestiny 远端预览库</title>
+  <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-  <main>
-    <h1>WebDestiny — Cut 1</h1>
-    <p id="description">V2：罗兰威胁尚班，尚班反控魔杖 · 中文对白</p>
-    <nav aria-label="版本选择">
-      <button class="active" data-file="Cut1_10s_dialogue_v2_00001.mp4" data-description="V2：罗兰威胁尚班，尚班反控魔杖 · 中文对白">播放 V2</button>
-      <button data-file="Cut1_10s_00001.mp4" data-description="V1：初始五分镜版本">播放 V1</button>
-    </nav>
-    <video id="player" controls preload="metadata" playsinline>
-      <source id="source" src="Cut1_10s_dialogue_v2_00001.mp4" type="video/mp4">
-      当前浏览器不支持 MP4 播放。
-    </video>
-    <div class="links">
-      <a href="Cut1_10s_dialogue_v2_00001.mp4" download>下载 V2</a>
-      <a href="Cut1_10s_00001.mp4" download>下载 V1</a>
-    </div>
-  </main>
-  <script>
-    const player = document.querySelector('#player');
-    const source = document.querySelector('#source');
-    const description = document.querySelector('#description');
-    document.querySelectorAll('button[data-file]').forEach((button) => {
-      button.addEventListener('click', () => {
-        document.querySelectorAll('button[data-file]').forEach((item) => item.classList.remove('active'));
-        button.classList.add('active');
-        source.src = button.dataset.file;
-        description.textContent = button.dataset.description;
-        player.load();
-        player.play().catch(() => {});
-      });
-    });
-  </script>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="返回作品集合">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span>
+        <strong>WebDestiny</strong>
+        <small>远端预览库</small>
+      </span>
+    </a>
+    <span class="sync-state"><i aria-hidden="true"></i> GitHub Pages</span>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <dialog id="lightbox" class="lightbox">
+    <button class="lightbox-close" type="button" aria-label="关闭大图">×</button>
+    <img alt="">
+    <p></p>
+  </dialog>
+
+  <noscript>请启用 JavaScript 查看作品集合。</noscript>
+  <script src="assets/app.js" defer></script>
 </body>
 </html>
