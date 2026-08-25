@@ -1,5 +1,20 @@
 const projects = [
   {
+    id: 'intro-destinybook-v4',
+    title: '角色片头：命运之页',
+    label: '片头 · 自由创作 V4',
+    date: '2026-08-25',
+    duration: '10.125 秒',
+    description: '只保留首尾视觉边界，中间由一张魔法纸页串联星图、课堂公式、变形学披肩、光蝶与三人汇合；内容更丰富，同时保持连续和清晰。',
+    cover: 'storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png',
+    video: 'Intro_10s_destinybook_v4_00001.mp4',
+    script: 'scripts/Intro_10s_destinybook_v4.md',
+    storyboards: [
+      ['storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png', '首帧', '罗兰降临 · 魔法纸页启程'],
+      ['storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png', '尾帧', '三条命运汇合 · 英雄构图']
+    ]
+  },
+  {
     id: 'intro-artcut-v3',
     title: '角色片头：艺术快剪版',
     label: '片头 · 快剪 V3',
