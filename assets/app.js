@@ -1,5 +1,23 @@
 const projects = [
   {
+    id: 'intro-artcut-v3',
+    title: '角色片头：艺术快剪版',
+    label: '片头 · 快剪 V3',
+    date: '2026-08-25',
+    duration: '10.125 秒',
+    description: '144 BPM 原创魔法管弦乐驱动的艺术快剪，采用密集特写插帧、速度拉升、硬切和五个提前落点，整体节奏明显快于电影卡点版。',
+    cover: 'storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png',
+    video: 'Intro_10s_artcut_v3_00001.mp4',
+    script: 'scripts/Intro_10s_artcut_v3.md',
+    storyboards: [
+      ['storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png', '0.00 秒', '罗兰 · 眼睛、耳坠、落地快剪'],
+      ['storyboards/intro_10s_v1/Intro_02_ShangBan_Professor.png', '2.08 秒', '尚班 · 粉笔、眼镜、魔杖快剪'],
+      ['storyboards/intro_10s_v1/Intro_03_Grandma_Transformation.png', '4.17 秒', '因素 · 羽毛、手势、茶杯快剪'],
+      ['storyboards/intro_10s_v1/Intro_04_First_Meeting.png', '6.25 秒', '三人相遇 · 接书冲击波'],
+      ['storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png', '8.33 秒', '人物闪切与英雄定格']
+    ]
+  },
+  {
     id: 'intro-cinematic-v2',
     title: '角色片头：电影卡点版',
     label: '片头 · 纯音乐 V2',
