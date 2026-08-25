@@ -15,60 +15,6 @@ const projects = [
     ]
   },
   {
-    id: 'intro-artcut-v3',
-    title: '角色片头：艺术快剪版',
-    label: '片头 · 快剪 V3',
-    date: '2026-08-25',
-    duration: '10.125 秒',
-    description: '144 BPM 原创魔法管弦乐驱动的艺术快剪，采用密集特写插帧、速度拉升、硬切和五个提前落点，整体节奏明显快于电影卡点版。',
-    cover: 'storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png',
-    video: 'Intro_10s_artcut_v3_00001.mp4',
-    script: 'scripts/Intro_10s_artcut_v3.md',
-    storyboards: [
-      ['storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png', '0.00 秒', '罗兰 · 眼睛、耳坠、落地快剪'],
-      ['storyboards/intro_10s_v1/Intro_02_ShangBan_Professor.png', '2.08 秒', '尚班 · 粉笔、眼镜、魔杖快剪'],
-      ['storyboards/intro_10s_v1/Intro_03_Grandma_Transformation.png', '4.17 秒', '因素 · 羽毛、手势、茶杯快剪'],
-      ['storyboards/intro_10s_v1/Intro_04_First_Meeting.png', '6.25 秒', '三人相遇 · 接书冲击波'],
-      ['storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png', '8.33 秒', '人物闪切与英雄定格']
-    ]
-  },
-  {
-    id: 'intro-cinematic-v2',
-    title: '角色片头：电影卡点版',
-    label: '片头 · 纯音乐 V2',
-    date: '2026-08-25',
-    duration: '10.125 秒',
-    description: '无解说、无对白的精致电影片头，以原创魔法管弦乐驱动书页遮挡、魔杖闪白、传送门扩散和魔法碎片四次卡点转场。',
-    cover: 'storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png',
-    video: 'Intro_10s_cinematic_v2_00001.mp4',
-    script: 'scripts/Intro_10s_cinematic_v2.md',
-    storyboards: [
-      ['storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png', '镜头 1', '罗兰降临 · 书本遮挡转场'],
-      ['storyboards/intro_10s_v1/Intro_02_ShangBan_Professor.png', '镜头 2', '尚班教授 · 魔杖闪白转场'],
-      ['storyboards/intro_10s_v1/Intro_03_Grandma_Transformation.png', '镜头 3', '因素教授 · 传送门圆环转场'],
-      ['storyboards/intro_10s_v1/Intro_04_First_Meeting.png', '镜头 4', '三人相遇 · 魔法碎片重组'],
-      ['storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png', '镜头 5', '管弦重拍英雄定格']
-    ]
-  },
-  {
-    id: 'intro-10s-v1',
-    title: '角色片头：魔法撞上现实',
-    label: '片头 · V1',
-    date: '2026-08-25',
-    duration: '10.125 秒',
-    description: '罗兰穿越后成为女生；青年教授尚班与变形学教授因素先后登场，三人在现实大学相遇。',
-    cover: 'storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png',
-    video: 'Intro_10s_v1_00001.mp4',
-    script: 'scripts/Intro_10s_v1.md',
-    storyboards: [
-      ['storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png', '镜头 1', '罗兰错位降临'],
-      ['storyboards/intro_10s_v1/Intro_02_ShangBan_Professor.png', '镜头 2', '尚班：理性教授'],
-      ['storyboards/intro_10s_v1/Intro_03_Grandma_Transformation.png', '镜头 3', '因素：变形学教授'],
-      ['storyboards/intro_10s_v1/Intro_04_First_Meeting.png', '镜头 4', '三人在现实相遇'],
-      ['storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png', '镜头 5', '片头英雄镜头']
-    ]
-  },
-  {
     id: 'cut1-dialogue-v2',
     title: 'Cut 1：魔杖反控',
     label: '测试片 · 对白 V2',
