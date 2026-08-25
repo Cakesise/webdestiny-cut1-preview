@@ -1,5 +1,23 @@
 const projects = [
   {
+    id: 'intro-cinematic-v2',
+    title: '角色片头：电影卡点版',
+    label: '片头 · 纯音乐 V2',
+    date: '2026-08-25',
+    duration: '10.125 秒',
+    description: '无解说、无对白的精致电影片头，以原创魔法管弦乐驱动书页遮挡、魔杖闪白、传送门扩散和魔法碎片四次卡点转场。',
+    cover: 'storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png',
+    video: 'Intro_10s_cinematic_v2_00001.mp4',
+    script: 'scripts/Intro_10s_cinematic_v2.md',
+    storyboards: [
+      ['storyboards/intro_10s_v1/Intro_01_Roman_Arrival.png', '镜头 1', '罗兰降临 · 书本遮挡转场'],
+      ['storyboards/intro_10s_v1/Intro_02_ShangBan_Professor.png', '镜头 2', '尚班教授 · 魔杖闪白转场'],
+      ['storyboards/intro_10s_v1/Intro_03_Grandma_Transformation.png', '镜头 3', '因素教授 · 传送门圆环转场'],
+      ['storyboards/intro_10s_v1/Intro_04_First_Meeting.png', '镜头 4', '三人相遇 · 魔法碎片重组'],
+      ['storyboards/intro_10s_v1/Intro_05_Ensemble_Hero.png', '镜头 5', '管弦重拍英雄定格']
+    ]
+  },
+  {
     id: 'intro-10s-v1',
     title: '角色片头：魔法撞上现实',
     label: '片头 · V1',
