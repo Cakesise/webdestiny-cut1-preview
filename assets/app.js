@@ -2,25 +2,25 @@ const projects = [
   {
     id: 'pilot-blue-heron-v1',
     title: '试播集：青鹭会馆',
-    label: '试播集 · 分镜待审核',
+    label: '试播集 · 分镜预览',
     date: '2026-08-25',
     duration: '10 × 5 秒 · 共 50 秒',
     description: '罗兰独闯东京黑道会所，却落入禁魔匕首陷阱；尚班从天窗沿灵体蛛丝降下，两人合力脱身。十段属于同一个连续项目。',
-    cover: 'storyboards/pilot_blue_heron_5s/BH_01_SealTheDoor.png',
+    cover: 'storyboards/pilot_blue_heron_clean_v2/BH_01_SealTheDoor_CleanV2.png',
     video: null,
     script: 'scripts/Pilot_BlueHeron_Storyboard_v2_5s.md',
     storyboards: [],
     segments: [
-      { number: '01', title: '封门', summary: '罗兰踏入会所，背后双门落闩；黑田坐在北侧木台，六名手下从阴影中完成包围。', handoff: '门已锁；罗兰居中面北；黑田坐在木椅；六人分别封住南、东、西三侧。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_01_SealTheDoor.png', video: null },
-      { number: '02', title: '空盒陷阱', summary: '黑田展示空罗盘盒，地毯封锁纹亮起；罗兰暗中悬起木椅，双方短暂言语交锋。', handoff: '两把木椅悬空；六人进入战斗姿态；黑田准备起身。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_02_EmptyBoxTrap.png', video: null },
-      { number: '03', title: '第一轮控物', summary: '罗兰用椅子与矮桌打破第一层包围；其他手下持续包抄、救援与改变路线。', handoff: '中央桌侧翻、两椅损坏；罗兰占据主动；黑田已经起身。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_03_TelekineticCounter.png', video: null },
-      { number: '04', title: '会所失控', summary: '高脚凳、漆盘、冰桶与玻璃杯连续加入战斗；黑田趁乱从木椅暗格取出禁魔匕首。', handoff: '吧台散乱；匕首半出鞘；空中物体开始失去魔法光。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_04_ClubChaos_DaggerReveal.png', video: null },
-      { number: '05', title: '禁魔刃', summary: '紫灰禁魔场熄灭罗兰的控物魔法，坠落道具逼她翻滚避险，黑田亲自持刀逼近。', handoff: '罗兰被逼向西侧木柱；魔法完全失效；六名手下继续封路。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_05_AntimagicReversal.png', video: null },
-      { number: '06', title: '只剩脾气', summary: '罗兰改用近身格斗；黑田斜切夹克与白衬衫外层，完整黑色防护内搭保持覆盖。', handoff: '罗兰上衣外层破损但无血无裸露；黑田持刀；战线移向西北角。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_06_CloseQuartersSlash.png', video: null },
-      { number: '07', title: '墙角绝境', summary: '罗兰挎包带被拉断，退路逐一封死；黑田把她逼到天窗下的墙角并举刀。', handoff: '挎包落在西墙；黑田举刀；罗兰已调整脚尖准备反击。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_07_CorneredUnderSkylight.png', video: null },
-      { number: '08', title: '蛛丝天降', summary: '灵体蛛丝射穿天窗锁扣并兜住玻璃；尚班沿蛛网滑下，罗兰趁黑田回头踢飞匕首。', handoff: '尚班落地；匕首飞向中央；罗兰、尚班与黑田同时争夺。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_08_SpiderwebRescue.png', video: null },
-      { number: '09', title: '合击终局', summary: '罗兰破坏黑田重心，尚班抢到匕首，以刀柄完成非致命最后一击。', handoff: '黑田昏迷；匕首即将封入木盒；罗兰和尚班控制战局。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_09_CoordinatedFinish.png', video: null },
-      { number: '10', title: '嘴硬离场', summary: '罗兰拒扶后仍跌进尚班怀里；两人互相搀扶又互相挖苦，走入雨夜。', handoff: '二人离开；会所开始救援；木盒内暗紫符号闪烁，留下幕后线索。', storyboard: 'storyboards/pilot_blue_heron_5s/BH_10_BanterExit.png', video: null }
+      { number: '01', title: '封门', summary: '罗兰踏入会所，背后双门落闩；黑田坐在北侧木台，六名手下从阴影中完成包围。', handoff: '门已锁；罗兰居中面北；黑田坐在木椅；六人分别封住南、东、西三侧。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_01_SealTheDoor_CleanV2.png', video: null },
+      { number: '02', title: '空盒陷阱', summary: '黑田展示空罗盘盒，地毯封锁纹亮起；罗兰暗中悬起木椅，双方短暂言语交锋。', handoff: '两把木椅悬空；六人进入战斗姿态；黑田准备起身。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_02_EmptyBoxTrap_CleanV2.png', video: null },
+      { number: '03', title: '第一轮控物', summary: '罗兰用椅子与矮桌打破第一层包围；其他手下持续包抄、救援与改变路线。', handoff: '中央桌侧翻、两椅损坏；罗兰占据主动；黑田已经起身。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_03_TelekineticCounter_CleanV2.png', video: null },
+      { number: '04', title: '会所失控', summary: '高脚凳、漆盘、冰桶与玻璃杯连续加入战斗；黑田趁乱从木椅暗格取出禁魔匕首。', handoff: '吧台散乱；匕首半出鞘；空中物体开始失去魔法光。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_04_DaggerInsert_CleanV2.png', video: null },
+      { number: '05', title: '禁魔刃', summary: '紫灰禁魔场熄灭罗兰的控物魔法，坠落道具逼她翻滚避险，黑田亲自持刀逼近。', handoff: '罗兰被逼向西侧木柱；魔法完全失效；六名手下继续封路。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_05_AntimagicReversal_CleanV2.png', video: null },
+      { number: '06', title: '只剩脾气', summary: '罗兰改用近身格斗；黑田斜切夹克与白衬衫外层，完整黑色防护内搭保持覆盖。', handoff: '罗兰上衣外层破损但无血无裸露；黑田持刀；战线移向西北角。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_06_CloseQuarters_CleanV2.png', video: null },
+      { number: '07', title: '墙角绝境', summary: '罗兰挎包带被拉断，退路逐一封死；黑田把她逼到天窗下的墙角并举刀。', handoff: '挎包落在西墙；黑田举刀；罗兰已调整脚尖准备反击。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_07_SkylightOverhead_CleanV2.png', video: null },
+      { number: '08', title: '蛛丝天降', summary: '灵体蛛丝射穿天窗锁扣并兜住玻璃；尚班沿蛛网滑下，罗兰趁黑田回头踢飞匕首。', handoff: '尚班落地；匕首飞向中央；罗兰、尚班与黑田同时争夺。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_08_SpiderwebRescue_CleanV2.png', video: null },
+      { number: '09', title: '合击终局', summary: '罗兰破坏黑田重心，尚班抢到匕首，以刀柄完成非致命最后一击。', handoff: '黑田昏迷；匕首即将封入木盒；罗兰和尚班控制战局。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_09_TeamCheckmate_CleanV2.png', video: null },
+      { number: '10', title: '嘴硬离场', summary: '罗兰拒扶后仍跌进尚班怀里；两人互相搀扶又互相挖苦，走入雨夜。', handoff: '二人离开；会所开始救援；木盒内暗紫符号闪烁，留下幕后线索。', storyboard: 'storyboards/pilot_blue_heron_clean_v2/BH_10_BanterExit_CleanV2.png', video: null }
     ]
   },
   {
@@ -164,7 +164,7 @@ async function detailView(project) {
 
   const headerAction = project.video
     ? `<a class="download-link" href="${project.video}" download>下载视频</a>`
-    : `<span class="review-status">分镜待审核</span>`;
+    : `<span class="review-status">分镜预览</span>`;
 
   const mediaSection = project.video ? `
     <section class="player-shell" aria-label="视频播放器">
@@ -175,8 +175,8 @@ async function detailView(project) {
     </section>
   ` : `
     <section class="draft-notice" aria-label="项目状态">
-      <strong>当前阶段：审核十张五秒分镜</strong>
-      <span>十张关键分镜已经生成；请先逐张检查。确认后才会在本项目内依次生成第 1–10 段视频，不会拆成十个项目。</span>
+      <strong>当前内容：十张五秒分镜</strong>
+      <span>十张关键分镜已经生成并直接展示；视频尚未生成。下一步按你的指令继续。</span>
     </section>
   `;
 
@@ -262,3 +262,4 @@ lightbox.addEventListener('click', (event) => {
 });
 window.addEventListener('hashchange', route);
 route();
+
