@@ -7,38 +7,49 @@
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background: radial-gradient(circle at top, #202235, #090a0f 64%);
-      color: #f5f5f7;
-      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-    }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(circle at top, #202235, #090a0f 64%); color: #f5f5f7; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
     main { width: min(1100px, 94vw); padding: 32px 0; }
     h1 { margin: 0 0 8px; font-size: clamp(24px, 4vw, 42px); }
-    p { margin: 0 0 20px; color: #b8bbca; }
-    video {
-      display: block;
-      width: 100%;
-      max-height: 78vh;
-      border-radius: 14px;
-      background: #000;
-      box-shadow: 0 20px 70px #000a;
-    }
+    p { margin: 0 0 18px; color: #b8bbca; }
+    nav { display: flex; gap: 10px; margin-bottom: 16px; }
+    button { border: 1px solid #555a70; border-radius: 999px; padding: 9px 16px; color: #e8eaff; background: #25283a; cursor: pointer; }
+    button.active { background: #5473d8; border-color: #8fa7ff; }
+    video { display: block; width: 100%; max-height: 74vh; border-radius: 14px; background: #000; box-shadow: 0 20px 70px #000a; }
+    .links { display: flex; gap: 18px; flex-wrap: wrap; }
     a { display: inline-block; margin-top: 18px; color: #9fc4ff; }
   </style>
 </head>
 <body>
   <main>
     <h1>WebDestiny — Cut 1</h1>
-    <p>MiniMax H3 · 10.125 秒 · 864×480 · 24fps</p>
-    <video controls preload="metadata" playsinline>
-      <source src="Cut1_10s_00001.mp4" type="video/mp4">
+    <p id="description">V2：罗兰威胁尚班，尚班反控魔杖 · 中文对白</p>
+    <nav aria-label="版本选择">
+      <button class="active" data-file="Cut1_10s_dialogue_v2_00001.mp4" data-description="V2：罗兰威胁尚班，尚班反控魔杖 · 中文对白">播放 V2</button>
+      <button data-file="Cut1_10s_00001.mp4" data-description="V1：初始五分镜版本">播放 V1</button>
+    </nav>
+    <video id="player" controls preload="metadata" playsinline>
+      <source id="source" src="Cut1_10s_dialogue_v2_00001.mp4" type="video/mp4">
       当前浏览器不支持 MP4 播放。
     </video>
-    <a href="Cut1_10s_00001.mp4" download>下载原视频</a>
+    <div class="links">
+      <a href="Cut1_10s_dialogue_v2_00001.mp4" download>下载 V2</a>
+      <a href="Cut1_10s_00001.mp4" download>下载 V1</a>
+    </div>
   </main>
+  <script>
+    const player = document.querySelector('#player');
+    const source = document.querySelector('#source');
+    const description = document.querySelector('#description');
+    document.querySelectorAll('button[data-file]').forEach((button) => {
+      button.addEventListener('click', () => {
+        document.querySelectorAll('button[data-file]').forEach((item) => item.classList.remove('active'));
+        button.classList.add('active');
+        source.src = button.dataset.file;
+        description.textContent = button.dataset.description;
+        player.load();
+        player.play().catch(() => {});
+      });
+    });
+  </script>
 </body>
 </html>
