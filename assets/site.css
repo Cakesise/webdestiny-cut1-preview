@@ -175,6 +175,8 @@ video { display: block; width: 100%; max-height: 74vh; background: #000; }
   border-radius: 16px;
   background: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.018));
 }
+.segment-board { margin: -4px -4px 18px; }
+.segment-board img { aspect-ratio: 16 / 9; }
 .segment-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .segment-number { color: var(--gold); font-size: 12px; font-weight: 750; letter-spacing: .08em; }
 .segment-status { padding: 5px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 11px; }
