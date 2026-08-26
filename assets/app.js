@@ -2,7 +2,7 @@ const projects = [
   {
     id: 'broken-thread-night-v1',
     title: '《丝途》试播集01：断线之夜',
-    label: '新剧本 · 六组分镜已生成',
+    label: '试播集01 · 六段视频已生成',
     date: '2026-08-26',
     duration: '6 × 10 秒 · 共 60 秒',
     description: '一根来自宇宙织网的断线刺入现实：尚班发现异常，罗兰循线而来，三人在魔法阁楼中的第一次磨合最终撕开了现实与魔法世界。',
@@ -11,12 +11,12 @@ const projects = [
     script: 'scripts/BT_StoryboardPrompts_v1.md',
     storyboards: [],
     segments: [
-      { number: '01', title: '宇宙钩子·断线', summary: '宇宙蓝色织网中一根丝线崩断，古老机械织客苏醒并拉住断线，蓝白光束最终刺入城市夜空。', handoff: '断线已经进入城市；电蓝色丝线成为后续所有异常的统一视觉线索。', storyboard: 'storyboards/broken_thread_night_v1/BT_01_CosmicBreak.png', video: null },
-      { number: '02', title: '尚班看见异常', summary: '深夜建筑事务所里，尚班从图纸工作转向窗外，用眼镜反光与测绘屏幕确认那根不应存在的蓝线。', handoff: '尚班站在窗前锁定异常方向，准备离开办公室追踪。', storyboard: 'storyboards/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly.png', video: null },
-      { number: '03', title: '罗兰登场·相遇', summary: '新版罗兰沿雨夜街巷中的蓝线前进，与同样追踪异常的尚班在路灯下相遇并形成戒备对峙。', handoff: '两人隔着蓝线对视；服装湿润、雨势与蓝线方向保持到下一场。', storyboard: 'storyboards/broken_thread_night_v1/BT_03_RomanMeetsShangBan.png', video: null },
-      { number: '04', title: '三人关系·魔杖漂浮', summary: '魔法阁楼中，尚班分析地图、罗兰反驳、因素制止争执；桌面魔杖突然升起，三人同时作出不同反应。', handoff: '魔杖已悬浮到罗兰伸手可及的位置；尚班与因素都在观察她的下一步。', storyboard: 'storyboards/broken_thread_night_v1/BT_04_FloatingWand.png', video: null },
-      { number: '05', title: '罗兰控杖·失控前兆', summary: '罗兰自信接住并挥动魔杖，蓝色丝线却突然反向缠住手腕，魔杖在她面前高频震颤。', handoff: '罗兰的惊讶特写与震颤魔杖直接衔接下一段爆发。', storyboard: 'storyboards/broken_thread_night_v1/BT_05_RomanWandControl.png', video: null },
-      { number: '06', title: '魔法事故·世界裂开', summary: '丝线爆发并束缚罗兰，尚班与因素同时介入；蓝线被切断时，现代城市与魔法学院在窗外重叠。', handoff: '现实与魔法世界已同时显现，作为试播集结尾悬念。', storyboard: 'storyboards/broken_thread_night_v1/BT_06_WorldSplit.png', video: null }
+      { number: '01', title: '宇宙钩子·断线', summary: '宇宙蓝色织网中一根丝线崩断，古老机械织客苏醒并拉住断线，蓝白光束最终刺入城市夜空。', handoff: '断线已经进入城市；电蓝色丝线成为后续所有异常的统一视觉线索。', storyboard: 'storyboards/broken_thread_night_v1/BT_01_CosmicBreak.png', video: 'videos/broken_thread_night_v1/BT_01_CosmicBreak_00001_.mp4' },
+      { number: '02', title: '尚班看见异常', summary: '深夜建筑事务所里，尚班从图纸工作转向窗外，用眼镜反光与测绘屏幕确认那根不应存在的蓝线。', handoff: '尚班站在窗前锁定异常方向，准备离开办公室追踪。', storyboard: 'storyboards/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly.png', video: 'videos/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly_00001_.mp4' },
+      { number: '03', title: '罗兰登场·相遇', summary: '新版罗兰沿雨夜街巷中的蓝线前进，与同样追踪异常的尚班在路灯下相遇并形成戒备对峙。', handoff: '两人隔着蓝线对视；服装湿润、雨势与蓝线方向保持到下一场。', storyboard: 'storyboards/broken_thread_night_v1/BT_03_RomanMeetsShangBan.png', video: 'videos/broken_thread_night_v1/BT_03_RomanMeetsShangBan_00001_.mp4' },
+      { number: '04', title: '三人关系·魔杖漂浮', summary: '魔法阁楼中，尚班分析地图、罗兰反驳、因素制止争执；桌面魔杖突然升起，三人同时作出不同反应。', handoff: '魔杖已悬浮到罗兰伸手可及的位置；尚班与因素都在观察她的下一步。', storyboard: 'storyboards/broken_thread_night_v1/BT_04_FloatingWand.png', video: 'videos/broken_thread_night_v1/BT_04_FloatingWand_00001_.mp4' },
+      { number: '05', title: '罗兰控杖·失控前兆', summary: '罗兰自信接住并挥动魔杖，蓝色丝线却突然反向缠住手腕，魔杖在她面前高频震颤。', handoff: '罗兰的惊讶特写与震颤魔杖直接衔接下一段爆发。', storyboard: 'storyboards/broken_thread_night_v1/BT_05_RomanWandControl.png', video: 'videos/broken_thread_night_v1/BT_05_RomanWandControl_00001_.mp4' },
+      { number: '06', title: '魔法事故·世界裂开', summary: '丝线爆发并束缚罗兰，尚班与因素同时介入；蓝线被切断时，现代城市与魔法学院在窗外重叠。', handoff: '现实与魔法世界已同时显现，作为试播集结尾悬念。', storyboard: 'storyboards/broken_thread_night_v1/BT_06_WorldSplit.png', video: 'videos/broken_thread_night_v1/BT_06_WorldSplit_00001_.mp4' }
     ]
   },
   {
