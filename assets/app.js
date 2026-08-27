@@ -2,21 +2,21 @@ const projects = [
   {
     id: 'broken-thread-night-v1',
     title: '《丝途》试播集01：断线之夜',
-    label: '试播集01 · 关键帧 V1 + 参考生成 V2',
+    label: '试播集01 · 六段视频已生成',
     date: '2026-08-26',
     duration: '6 × 10 秒 · 共 60 秒',
-    description: '一根来自宇宙织网的断线刺入现实。每段可对比 V1 五关键帧生成与 V2 人设图+场景图参考生成；V2 改用连续单镜头动作和明确普通话口型标记。',
+    description: '一根来自宇宙织网的断线刺入现实：尚班发现异常，罗兰循线而来，三人在魔法阁楼中的第一次磨合最终撕开了现实与魔法世界。',
     cover: 'storyboards/broken_thread_night_v1/BT_03_RomanMeetsShangBan.png',
     video: null,
-    script: 'scripts/BT_Ref2VPrompts_v2.json',
+    script: 'scripts/BT_StoryboardPrompts_v1.md',
     storyboards: [],
     segments: [
-      { number: '01', title: '宇宙钩子·断线', summary: '宇宙蓝色织网中一根丝线崩断，古老机械织客苏醒并拉住断线，蓝白光束最终刺入城市夜空。', handoff: '断线已经进入城市；电蓝色丝线成为后续所有异常的统一视觉线索。', storyboard: 'storyboards/broken_thread_night_v1/BT_01_CosmicBreak.png', video: 'videos/broken_thread_night_v1/BT_01_CosmicBreak_00001_.mp4', videoVariants: [{ label: 'V1 · 五关键帧', src: 'videos/broken_thread_night_v1/BT_01_CosmicBreak_00001_.mp4' }, { label: 'V2 · 纺织者+场景参考', src: 'videos/broken_thread_night_ref2v_v2/BT_01_CosmicBreak_Ref2V_00001_.mp4' }] },
-      { number: '02', title: '尚班看见异常', summary: '深夜建筑事务所里，尚班从图纸工作转向窗外，用眼镜反光与测绘屏幕确认那根不应存在的蓝线。', handoff: '尚班站在窗前锁定异常方向，准备离开办公室追踪。', storyboard: 'storyboards/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly.png', video: 'videos/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly_00001_.mp4', videoVariants: [{ label: 'V1 · 五关键帧', src: 'videos/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly_00001_.mp4' }, { label: 'V2 · 尚班+办公室参考', src: 'videos/broken_thread_night_ref2v_v2/BT_02_ShangBanSeesAnomaly_Ref2V_00001_.mp4' }] },
-      { number: '03', title: '罗兰登场·相遇', summary: '新版罗兰沿雨夜街巷中的蓝线前进，与同样追踪异常的尚班在路灯下相遇并形成戒备对峙。', handoff: '两人隔着蓝线对视；服装湿润、雨势与蓝线方向保持到下一场。', storyboard: 'storyboards/broken_thread_night_v1/BT_03_RomanMeetsShangBan.png', video: 'videos/broken_thread_night_v1/BT_03_RomanMeetsShangBan_00001_.mp4', videoVariants: [{ label: 'V1 · 五关键帧', src: 'videos/broken_thread_night_v1/BT_03_RomanMeetsShangBan_00001_.mp4' }, { label: 'V2 · 罗兰+尚班+雨巷参考', src: 'videos/broken_thread_night_ref2v_v2/BT_03_RomanMeetsShangBan_Ref2V_00001_.mp4' }] },
-      { number: '04', title: '三人关系·魔杖漂浮', summary: '魔法阁楼中，尚班分析地图、罗兰反驳、因素制止争执；桌面魔杖突然升起，三人同时作出不同反应。', handoff: '魔杖已悬浮到罗兰伸手可及的位置；尚班与因素都在观察她的下一步。', storyboard: 'storyboards/broken_thread_night_v1/BT_04_FloatingWand.png', video: 'videos/broken_thread_night_v1/BT_04_FloatingWand_00001_.mp4', videoVariants: [{ label: 'V1 · 五关键帧', src: 'videos/broken_thread_night_v1/BT_04_FloatingWand_00001_.mp4' }, { label: 'V2 · 三人+阁楼参考', src: 'videos/broken_thread_night_ref2v_v2/BT_04_FloatingWand_Ref2V_00001_.mp4' }] },
-      { number: '05', title: '罗兰控杖·失控前兆', summary: '罗兰自信接住并挥动魔杖，蓝色丝线却突然反向缠住手腕，魔杖在她面前高频震颤。', handoff: '罗兰的惊讶特写与震颤魔杖直接衔接下一段爆发。', storyboard: 'storyboards/broken_thread_night_v1/BT_05_RomanWandControl.png', video: 'videos/broken_thread_night_v1/BT_05_RomanWandControl_00001_.mp4', videoVariants: [{ label: 'V1 · 五关键帧', src: 'videos/broken_thread_night_v1/BT_05_RomanWandControl_00001_.mp4' }, { label: 'V2 · 新罗兰+阁楼参考', src: 'videos/broken_thread_night_ref2v_v2/BT_05_RomanWandControl_Ref2V_00001_.mp4' }] },
-      { number: '06', title: '魔法事故·世界裂开', summary: '丝线爆发并束缚罗兰，尚班与因素同时介入；蓝线被切断时，现代城市与魔法学院在窗外重叠。', handoff: '现实与魔法世界已同时显现，作为试播集结尾悬念。', storyboard: 'storyboards/broken_thread_night_v1/BT_06_WorldSplit.png', video: 'videos/broken_thread_night_v1/BT_06_WorldSplit_00001_.mp4', videoVariants: [{ label: 'V1 · 五关键帧', src: 'videos/broken_thread_night_v1/BT_06_WorldSplit_00001_.mp4' }, { label: 'V2 · 三人+阁楼参考', src: 'videos/broken_thread_night_ref2v_v2/BT_06_WorldSplit_Ref2V_00001_.mp4' }] }
+      { number: '01', title: '宇宙钩子·断线', summary: '宇宙蓝色织网中一根丝线崩断，古老机械织客苏醒并拉住断线，蓝白光束最终刺入城市夜空。', handoff: '断线已经进入城市；电蓝色丝线成为后续所有异常的统一视觉线索。', storyboard: 'storyboards/broken_thread_night_v1/BT_01_CosmicBreak.png', video: 'videos/broken_thread_night_v1/BT_01_CosmicBreak_00001_.mp4' },
+      { number: '02', title: '尚班看见异常', summary: '深夜建筑事务所里，尚班从图纸工作转向窗外，用眼镜反光与测绘屏幕确认那根不应存在的蓝线。', handoff: '尚班站在窗前锁定异常方向，准备离开办公室追踪。', storyboard: 'storyboards/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly.png', video: 'videos/broken_thread_night_v1/BT_02_ShangBanSeesAnomaly_00001_.mp4' },
+      { number: '03', title: '罗兰登场·相遇', summary: '新版罗兰沿雨夜街巷中的蓝线前进，与同样追踪异常的尚班在路灯下相遇并形成戒备对峙。', handoff: '两人隔着蓝线对视；服装湿润、雨势与蓝线方向保持到下一场。', storyboard: 'storyboards/broken_thread_night_v1/BT_03_RomanMeetsShangBan.png', video: 'videos/broken_thread_night_v1/BT_03_RomanMeetsShangBan_00001_.mp4' },
+      { number: '04', title: '三人关系·魔杖漂浮', summary: '魔法阁楼中，尚班分析地图、罗兰反驳、因素制止争执；桌面魔杖突然升起，三人同时作出不同反应。', handoff: '魔杖已悬浮到罗兰伸手可及的位置；尚班与因素都在观察她的下一步。', storyboard: 'storyboards/broken_thread_night_v1/BT_04_FloatingWand.png', video: 'videos/broken_thread_night_v1/BT_04_FloatingWand_00001_.mp4' },
+      { number: '05', title: '罗兰控杖·失控前兆', summary: '罗兰自信接住并挥动魔杖，蓝色丝线却突然反向缠住手腕，魔杖在她面前高频震颤。', handoff: '罗兰的惊讶特写与震颤魔杖直接衔接下一段爆发。', storyboard: 'storyboards/broken_thread_night_v1/BT_05_RomanWandControl.png', video: 'videos/broken_thread_night_v1/BT_05_RomanWandControl_00001_.mp4' },
+      { number: '06', title: '魔法事故·世界裂开', summary: '丝线爆发并束缚罗兰，尚班与因素同时介入；蓝线被切断时，现代城市与魔法学院在窗外重叠。', handoff: '现实与魔法世界已同时显现，作为试播集结尾悬念。', storyboard: 'storyboards/broken_thread_night_v1/BT_06_WorldSplit.png', video: 'videos/broken_thread_night_v1/BT_06_WorldSplit_00001_.mp4' }
     ]
   },
   {
@@ -106,16 +106,10 @@ const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (character) => (
   '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
 }[character]));
 
-const segmentVideos = (segment) => segment.videoVariants?.length
-  ? segment.videoVariants
-  : segment.video
-    ? [{ label: '视频', src: segment.video }]
-    : [];
-
 const projectAssetSummary = (project) => {
   if (project.segments?.length) {
     const completedBoards = project.segments.filter((segment) => segment.storyboard).length;
-    const completedVideos = project.segments.reduce((sum, segment) => sum + segmentVideos(segment).length, 0);
+    const completedVideos = project.segments.filter((segment) => segment.video).length;
     return `${completedBoards} 张分镜 · ${completedVideos ? `${completedVideos} 个视频` : '视频待生成'} · 1 份剧本`;
   }
   return `${project.storyboards.length} 张分镜 · ${project.video ? '1 个视频' : '视频待生成'} · 1 份剧本`;
@@ -149,7 +143,7 @@ function collectionView() {
       <div class="collection-meta">
         <span class="pill">${projects.length} 组作品</span>
         <span class="pill">${projects.reduce((sum, project) => sum + (project.segments?.length || project.storyboards.length), 0)} 个分镜单元</span>
-        <span class="pill">${projects.reduce((sum, project) => sum + (project.segments?.reduce((count, segment) => count + segmentVideos(segment).length, 0) || (project.video ? 1 : 0)), 0)} 个视频</span>
+        <span class="pill">${projects.reduce((sum, project) => sum + (project.segments?.filter((segment) => segment.video).length || (project.video ? 1 : 0)), 0)} 个视频</span>
       </div>
     </section>
     <section class="card-grid" aria-label="作品集合">${cards}</section>
@@ -165,36 +159,30 @@ async function detailView(project) {
     </figure>
   `).join('');
 
-  const segments = (project.segments || []).map((segment) => {
-    const videos = segmentVideos(segment);
-    return `
-      <article class="segment-card">
-        ${segment.storyboard ? `
-          <figure class="storyboard segment-board" data-src="${segment.storyboard}" data-caption="${escapeHtml(`第 ${segment.number} 段 · ${segment.title}`)}" tabindex="0" role="button" aria-label="放大第 ${segment.number} 段分镜">
-            <img src="${segment.storyboard}" alt="${escapeHtml(`第 ${segment.number} 段：${segment.title}`)}" loading="lazy">
-            <figcaption><strong>第 ${segment.number} 段</strong>${escapeHtml(segment.title)} · ${project.id === 'broken-thread-night-v1' ? '约 10 秒' : '5 秒'}</figcaption>
-          </figure>
-        ` : ''}
-        <div class="segment-top">
-          <span class="segment-number">第 ${segment.number} 段</span>
-          <span class="segment-status">${videos.length ? `${videos.length} 个视频版本` : '分镜已生成 · 视频待生成'}</span>
-        </div>
-        <h3>${escapeHtml(segment.title)}</h3>
-        <p>${escapeHtml(segment.summary)}</p>
-        <div class="segment-handoff"><strong>段尾交接</strong>${escapeHtml(segment.handoff)}</div>
-        ${videos.map((video) => `
-          <div class="segment-video-variant">
-            <span class="segment-status">${escapeHtml(video.label)}</span>
-            <video class="segment-video" controls preload="metadata" playsinline>
-              <source src="${video.src}" type="video/mp4">
-            </video>
-          </div>
-        `).join('')}
-      </article>
-    `;
-  }).join('');
+  const segments = (project.segments || []).map((segment) => `
+    <article class="segment-card">
+      ${segment.storyboard ? `
+        <figure class="storyboard segment-board" data-src="${segment.storyboard}" data-caption="${escapeHtml(`第 ${segment.number} 段 · ${segment.title}`)}" tabindex="0" role="button" aria-label="放大第 ${segment.number} 段分镜">
+          <img src="${segment.storyboard}" alt="${escapeHtml(`第 ${segment.number} 段：${segment.title}`)}" loading="lazy">
+          <figcaption><strong>第 ${segment.number} 段</strong>${escapeHtml(segment.title)} · 5 秒</figcaption>
+        </figure>
+      ` : ''}
+      <div class="segment-top">
+        <span class="segment-number">第 ${segment.number} 段</span>
+        <span class="segment-status">${segment.video ? '视频已生成' : '分镜已生成 · 视频待生成'}</span>
+      </div>
+      <h3>${escapeHtml(segment.title)}</h3>
+      <p>${escapeHtml(segment.summary)}</p>
+      <div class="segment-handoff"><strong>段尾交接</strong>${escapeHtml(segment.handoff)}</div>
+      ${segment.video ? `
+        <video class="segment-video" controls preload="metadata" playsinline>
+          <source src="${segment.video}" type="video/mp4">
+        </video>
+      ` : ''}
+    </article>
+  `).join('');
 
-  const completedSegmentVideos = project.segments?.filter((segment) => segmentVideos(segment).length).length || 0;
+  const completedSegmentVideos = project.segments?.filter((segment) => segment.video).length || 0;
   const headerAction = project.video
     ? `<a class="download-link" href="${project.video}" download>下载视频</a>`
     : completedSegmentVideos
